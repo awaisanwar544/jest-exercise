@@ -4,7 +4,7 @@
   "description": "",
   "main": "strMethods.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "watch": "jest --watchAll"
   },
   "repository": {

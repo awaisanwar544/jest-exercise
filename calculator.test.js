@@ -33,7 +33,7 @@ describe('Subtraction', () => {
         }).toThrow('Argument is missing');
     }) 
 
-    it('Addition of numbers', () => {
+    it('Subrtaction of numbers', () => {
         expect(addObj.subtract(3,1)).toBe(2);
     }) 
 })
@@ -52,7 +52,7 @@ describe('Multiplication', () => {
         }).toThrow('Argument is missing');
     }) 
 
-    it('Addition of numbers', () => {
+    it('Multiplication of numbers', () => {
         expect(addObj.multiply(3,4)).toBe(12);
     }) 
 })
@@ -71,7 +71,7 @@ describe('Division', () => {
         }).toThrow('Argument is missing');
     }) 
 
-    it('Addition of numbers', () => {
+    it('Division of numbers', () => {
         expect(addObj.divide(20,4)).toBe(5);
     }) 
 })
